@@ -1,7 +1,8 @@
 locals {
     tags = {
-        name = var.name
+        name           = var.name
         source_project = var.project
+        environment    = var.environment
     }
     asg_tags = [
         {
@@ -11,6 +12,10 @@ locals {
         },{
             key                 = "project"
             value               = var.project
+            propagate_at_launch = true
+        },{
+            key                 = "environment"
+            value               = var.environment
             propagate_at_launch = true
         }
     ]

@@ -5,5 +5,10 @@ variable "name" {
 
 variable "source_project" {
     type        = "string"
-    description = "Link to source project of resource"
+    description = "Link to source project of the resource"
+}
+
+variable "environment" {
+    type        = "string"
+    description = "Deployment environment of the resourece"
 }

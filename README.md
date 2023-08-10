@@ -28,6 +28,7 @@ No resources.
 |------|-------------|------|---------|:--------:|
 | <a name="input_name"></a> [name](#input\_name) | Primary identifier of the resource | `string` | n/a | yes |
 | <a name="input_source_project"></a> [source\_project](#input\_source\_project) | Link to source project of resource | `string` | n/a | yes |
+| <a name="input_environmentt"></a> [environment](#input\_environment) | Deployment environment of the resourece | `string` | n/a | yes |
 
 ## Outputs
 
