@@ -1,9 +1,9 @@
 output "tags" {
     description = "Map type object of tags"
-    value       = locals.tags
+    value       = local.tags
 }
 
 output "asg_tags" {
     description = "List of Map type object of tags for AutoScaling Groups"
-    value       = locals.tags
+    value       = local.tags
 }
